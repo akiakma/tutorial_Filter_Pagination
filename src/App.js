@@ -2,6 +2,9 @@ import React , { useEffect, useState, useRef } from "react";
 import styled from "styled-components";
 import axios from "axios";
 import Pagination from './Pagination';
+import { withRouter } from "react-router-dom";
+
+
 // import Posts from './Posts';
 
 const App = () => {
